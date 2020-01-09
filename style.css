@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    font-size: 30px;
+}
+.parentbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameArea {
+    
+}
+.sidebar {
+    width: 200px;
+}
+.ui {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ui, .square {
+    align-items: center;
+    justify-content: center;
+}
+.resetButton {
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+    height: 40px;
+}
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 610px;
+    width: 610px;
+    
+}
+.square {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    font-size: 150px;
+}
+.square:hover {
+    background-color: turquoise;
+}
+footer {
+    font-size: 15px;
+}
+
